@@ -1,0 +1,144 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(245, 187, 100);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(189, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 0;
+}
+p{
+    font-size: 20px;
+    color: rgb(53, 53, 51);
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.presentacion h1{
+    font-size: 35px;
+    color: rgb(189, 0, 0);
+}
+.presentacion p{
+    width: 100%;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.presentacion img {
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'Arial', sans-serif; 
+    color: #33475b;    
+    }
+  
+  img{
+    padding: 15px; 
+  }
+  
+#recetas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#recetas iframe{
+    padding: 10px;
+    margin: 10px;
+}
+#tips{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#tips iframe{
+    padding: 20px;
+    line-height: 1.5;
+    margin: 20px; 
+}
+#saludynutricion{
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+#saludynutricion iframe{
+    padding: 20px;
+    line-height: 1.5;
+    margin: 20px; 
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(243, 229, 229);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.caja img{
+    margin: auto;
+    width: 190px; 
+    padding: 20px;
+    font-family: 'Arial', sans-serif; 
+    color: #33475b;    
+}
+      
+    img{
+    padding: 15px; 
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(245, 182, 182);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.caja img {
+    border-radius: 50%;
+}

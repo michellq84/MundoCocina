@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="./main.js"></script>
+    <title>Mi primera pagina web</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img src="./imagenes/logo.jpg" alt="logo de mundo cocina">
+        </div>
+        <nav>
+            <ul>
+
+                <li><a href="https://www.cocinafacil.com.mx/">HOME</a></li>
+                <li><a href="#recetas">RECETAS</a></li>
+                <li><a href="#tipsdecocina">TIPS DE COCINA</a></li>
+                <li><a href="#saludynutricion">SALUD Y NUTRICION</a></li>
+                <li><a href="https://www.cocinafacil.com.mx/recetarios">RECETARIOS</a></li>
+        
+            </ul>
+        </nav>
+    </header>
+    <div class="presentacion">
+        <h1>QUÉ ES MUNDO COCINA</h1>
+        <p>Mundo Cocina es una página web enfocada en compartir tips y recetas gastronómicas de diversas culturas con el fin de agregar variedad y sabor a tu mesa para que disfrutes con tu familia y amigos.</p>
+    </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagenes/recetas.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/Historia culinaria.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./imagenes/Cocina Internacional.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
+    <div class="contenedor">
+        <div class="cocina1">
+            <h1>Cocina Oriental</h1>
+            <div id="contenido">
+                <p>La cocina oriental, también conocida como cocina asiática, engloba una amplia variedad de tradiciones culinarias de países como China, Japón, Corea, Tailandia y Vietnam, entre otros. Se caracteriza por el uso de ingredientes frescos, sabores equilibrados y una gran atención a la presentación visual de los platos. Las especias, el arroz, el tofu, el pescado y las verduras son componentes fundamentales en esta cocina. El wok es un utensilio comúnmente utilizado para saltear y cocinar al vapor.</p>
+        </div>  
+        <button onclick='muestra_oculta("contenido")' class="btn btn-primary" form="contenido">+</button>
+    </div>
+    
+        <div class="cocina2">
+            <h1>Cocina Caribeña</h1>
+            <div id="contenido2">
+                <p>La cocina caribeña es una fusión de influencias africanas, europeas e indígenas que se encuentra en la región del Caribe, que incluye países como Jamaica, Cuba, Puerto Rico y República Dominicana. Los platos caribeños suelen incorporar ingredientes tropicales como plátanos, yuca, coco, mariscos y especias picantes. Ejemplos populares de platos caribeños incluyen el jerk chicken (pollo a la parrilla marinado en especias), el arroz con gandules y el arroz y frijoles negros.</p>
+        </div>
+        <button onclick='muestra_oculta("contenido2")' class="btn btn-primary" form="contenido2">+</button>
+    </div>
+
+        <div class="cocina3">
+            <h1>Cocina Mediterranea</h1>
+            <div id="contenido3">
+                <p>La cocina mediterránea se origina en los países que rodean el Mar Mediterráneo, como Italia, Grecia, España y Turquía. Se caracteriza por el uso de ingredientes frescos y saludables como aceite de oliva, tomates, hierbas, pescado y pan. Los platos mediterráneos suelen ser sabrosos pero equilibrados, y se centran en resaltar la calidad de los ingredientes. Algunos ejemplos incluyen la pizza italiana, la paella española y la moussaka griega. El aceite de oliva es una parte fundamental de esta cocina y se utiliza en muchas preparaciones.</p>
+        </div>
+        <button onclick='muestra_oculta("contenido3")' class="btn btn-primary" form="contenido3">+</button>
+    </div>
+
+    </div>
+        <div id="recetas">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uAn0UC3FBZo?si=wyRFY9w75soFkAlA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rBjj0Q7_2i8?si=d_9FW7gxj61y6Wz9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wunS0tLgB8k?si=VT8vMvcDd7jReWQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+    <div id="contenedor">
+        <div id="tipsdecocina">
+            <h1>TIPS DE COCINA</h1>
+            <p>Aquí tienes 10 consejos generales de cocina que pueden ayudarte a mejorar tus habilidades culinarias:
+               <li><strong> Preparación previa: </strong> Antes de comenzar a cocinar, asegúrate de tener todos los ingredientes y utensilios listos. Esto te ahorrará tiempo y evitará que te encuentres en una situación apurada mientras cocinas.</li>
+               <li><strong> Cuchillos afilados: </strong> Mantén tus cuchillos afilados. Un cuchillo afilado es más seguro y facilita el corte de ingredientes.</li>                
+               <li><strong> Medición precisa: </strong> Utiliza utensilios de medición para asegurarte de que estás agregando los ingredientes en las cantidades correctas, especialmente en repostería.</li>                
+               <li><strong> Sabor constante: </strong> Prueba tus platillos regularmente y ajusta los condimentos según sea necesario. El equilibrio de sabores es esencial.</li>
+               <li><strong> Control de temperatura: </strong> Aprende a controlar y ajustar la temperatura de tu cocina, ya que diferentes platos requieren diferentes niveles de calor.</li>
+               <li><strong> Tiempo de reposo: </strong> Permite que las carnes se reposen después de cocinarlas. Esto ayuda a que los jugos se redistribuyan y la carne quede más tierna y jugosa.</li>
+               <li><strong> Uso adecuado de las hierbas y especias: </strong> Experimenta con hierbas frescas y especias para dar sabor a tus platillos, pero asegúrate de no sobrecargarlos.</li>
+               <li><strong> Cocción lenta: </strong> Algunos platillos, como guisos y sopas, mejoran con una cocción lenta y a fuego lento. Esto permite que los sabores se desarrollen completamente.</li>
+               <li><strong> Mantén la cocina limpia: </strong> Limpia mientras cocinas para mantener un ambiente de trabajo ordenado y seguro. Además, lava tus utensilios y platos a medida que avanzas para evitar acumulación de suciedad.</li>
+               <li><strong> Experimenta y diviértete: </strong> La cocina es un arte, así que no temas experimentar con nuevas recetas y técnicas. La creatividad y la diversión son parte de lo que hace que cocinar sea gratificante.</li>                
+                Recuerda que la práctica constante es la clave para mejorar tus habilidades culinarias, así que no te desanimes si algo no sale a la perfección la primera vez. ¡Sigue cocinando y disfrutando del proceso!</p>
+
+        </div>
+    </div>
+
+    <div id="contenedor">
+        <div id="saludynutricion">
+            <h1>SALUD Y NUTRICION</h1>
+            <h2>Alimentos Ricos en Antioxidantes: Una Guía para una Dieta Saludable</h2>
+            <p>Los antioxidantes son compuestos que desempeñan un papel esencial en la protección de nuestras células contra el daño causado por los radicales libres. Los radicales libres son moléculas inestables que pueden dañar las células y contribuir al envejecimiento prematuro y a diversas enfermedades. Una forma efectiva de combatir los radicales libres es incorporar alimentos ricos en antioxidantes en nuestra dieta diaria. Aquí te presentamos una guía sobre los alimentos que debes considerar para una dieta llena de antioxidantes y beneficios para la salud.
+            <li><strong>Frutas y Verduras Coloridas:</strong>Las frutas y verduras coloridas son una excelente fuente de antioxidantes. Algunas de las mejores opciones incluyen arándanos, frambuesas, espinacas y zanahorias.  </li>
+            <li><strong>Frutos Secos y Semillas:</strong>Las nueces ontienen ácidos grasos omega-3, vitamina E y polifenoles que combaten los radicales libres, las almendras son una fuente de vitamina E y antioxidantes que pueden ayudar a reducir la presión arterial, por ultimo, las semillas de chía son ricas en antioxidantes y ácidos grasos omega-3, excelentes para la salud del corazón.</li>
+            <li><strong>Té Verde:</strong>El té verde es conocido por su alto contenido de catequinas, un tipo de antioxidante que se ha asociado con varios beneficios para la salud, como la reducción del riesgo de enfermedades cardíacas y la mejora de la función cerebral.</li>
+            <li><strong>Chocolate Negro:</strong>El chocolate negro de alta calidad contiene flavonoides, que pueden ayudar a mejorar la salud del corazón y proteger la piel contra el daño solar.</li>
+            <li><strong>Legumbres:</strong>Los frijoles, lentejas y garbanzos son ricos en antioxidantes como los polifenoles y son una excelente fuente de proteínas vegetales.</li></p>
+        </div>  
+    </div>
+
+    <footer>
+        <p>EDITORIAL MUNDO COCINA S.A. DE C.V. TODOS LOS DERECHOS RESERVADOS. TBG - EDITORIAL MUNDO COCINA - LIFESTYLES - FOOD</p>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
